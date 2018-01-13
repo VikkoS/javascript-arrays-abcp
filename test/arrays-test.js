@@ -61,7 +61,8 @@ describe('arrays', () => {
 
   describe('destructivelyAddElementToEndOfArray(array, element)', () => {
     it('adds an element to the end of an array', () => {
-      expect(destructivelyAddElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
+      var arr = [1]
+      expect(destructivelyAddElementToEndOfArray(arr, 'foo')).to.eql([1, 'foo'])
     })
 
     it('alters the original array', () => {
