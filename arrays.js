@@ -24,3 +24,4 @@ function destructivelyAddElementToEndOfArray(oldArray, newItem) {
 function accessElementInArray(array, position) {
   return array[position];
 }
+
