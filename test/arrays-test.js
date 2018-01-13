@@ -20,10 +20,7 @@ describe('arrays', () => {
     it('adds an element to the beginning of an array', () => {
       expect(addElementToBeginningOfArray([1], 'foo')).to.eql(['foo', 1])
     })
-    var a1 =addElementToBeginningOfArray([1], 'foo');
-    for (var i=0; i<a1.length; i++ ) {
-   console.log('item'+i+a1[i]);
- }
+ 
 
     it('does not alter the original array', () => {
       const array = [1]
